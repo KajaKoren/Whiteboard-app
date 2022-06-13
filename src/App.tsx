@@ -6,9 +6,12 @@ import PencilTool from './components/penciltool';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App' style={{height: 0.5, width: 0.5}}>
       <PencilTool /> 
-    </div>
+      <div className= 'button' style={{position: 'relative', justifyContent: 'center'}}>
+        <button style={{color: 'blue', backgroundColor: 'black' }}>Clear</button>
+      </div>
+    </div> 
   );
 }
 
